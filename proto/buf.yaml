@@ -1,0 +1,10 @@
+v0ersion: v1
+name: github.com/jianxx/petstore
+lint:
+  use:
+    - DEFAULT
+  ignore:
+    - google/type/datetime.proto
+breaking:
+  use:
+    - FILE
